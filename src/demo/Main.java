@@ -11,7 +11,7 @@ public class Main {
         String name = in.nextLine();
         System.out.println("Hello " + name);
     }
-    void bob() {
+    void askAboutAge() {
         System.out.print("What's your age? ");
         String age = in.nextLine();
         System.out.println("No way you are " + age + "!");
@@ -21,7 +21,7 @@ public class Main {
         System.out.println("It works!");
 
         new Main().greet();
-        new Main().bob();
+        new Main().askAboutAge();
 
     }
 }
