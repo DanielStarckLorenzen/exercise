@@ -11,11 +11,17 @@ public class Main {
         String name = in.nextLine();
         System.out.println("Hello " + name);
     }
+    void askAboutAge() {
+        System.out.print("What's your age? ");
+        String age = in.nextLine();
+        System.out.println("No way you are " + age + "!");
+    }
 
     public static void main(String[] args) {
         System.out.println("It works!");
 
         new Main().greet();
+        new Main().askAboutAge();
 
     }
 }
